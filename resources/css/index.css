@@ -9,24 +9,29 @@ header {
 }
 
 header img {
-    display: flex;
-    padding: 10px 20px;
+    display: inline-flex;
+    padding: 10px 10px 10px 20px;
 }
 
-.logo_text {
-    display: flex;
+.logo {
+    display: inline-flex;
+    align-items: center;
     color: mediumaquamarine;
 }
 
 nav {
     display: flex;
+    justify-content: flex-end;
+    flex-grow: 1;
+    padding-right:40px;
 }
 
 nav span {
     display: flex;
+    align-items: center;
+    padding: 0 10px;
 }
 
 nav a {
-    display: inline-block;
-    padding: 0 10px;
+    color: black;
 }
