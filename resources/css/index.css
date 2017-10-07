@@ -41,6 +41,9 @@ nav a {
     display: flex;
     margin: 0 20px;
     border: 1px solid black;
+    height: auto;
+    width: auto;
+    overflow: scroll;
 }
 
 .column {
@@ -67,6 +70,45 @@ nav a {
 .section {
     display: flex;
     width: 100%;
+}
+
+.story_text {
+    font-family: Georgia;
+    font-size: 17px;
+    color: black;
+}
+
+.picture_text {
+    font-family: Georgia;
+    font-weight: bold;
+    font-size: 30px;
+    color: white;
+}
+
+#main.picture_text {
+    font-size: 40px;
+}
+
+.picture {
+    display: flex;
+    width: 100%;
+    height: 300px;
+}
+
+#main.picture {
+    background-image: url("../images/img-story-main.png");
+}
+
+#story1.picture {
+    background-image: url("../images/img-story-1.png");
+}
+
+#story2.picture {
+    background-image: url("../images/img-story-2.png");
+}
+
+#story3.picture {
+    background-image: url("../images/img-story-3.png");
 }
 
 .border {
